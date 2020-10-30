@@ -25,7 +25,6 @@ import com.bookshop.to.OrderTO;
  * Service to place and retrieve orders
  *
  */
-//TODO: Mengenbegrenzung bei List (Paging, maxsize etc)
 @Validated
 @Service
 @Transactional

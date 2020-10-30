@@ -9,11 +9,14 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 
 @ApiModel(description = "Information of a order")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class OrderTO {
 	
 	@NotBlank

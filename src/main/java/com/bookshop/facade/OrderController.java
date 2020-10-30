@@ -21,8 +21,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.ApiResponse;
 
-//TODO: Überlast (Bucket4J)
-//TODO: Security @Authorized
 @RestController
 @RequestMapping(value="/orders", produces = MediaType.APPLICATION_JSON_VALUE)
 @Api(value="Order REST-Endpoint",  produces = MediaType.APPLICATION_JSON_VALUE )
