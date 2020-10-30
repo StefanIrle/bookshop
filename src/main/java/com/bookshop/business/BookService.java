@@ -22,7 +22,6 @@ import com.bookshop.to.BookTO;
  * CRUD functionality for Books
  *
  */
-//TODO: Mengenbegrenzung bei List (Paging, maxsize etc)
 @Validated
 @Service
 @Transactional
